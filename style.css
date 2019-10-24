@@ -10,7 +10,7 @@ body {
 .hc-logo {
   text-align: center;
   color: #AE0E11;
-  font-family: 'bebas';
+  font-family: 'Fjalla One', sans-serif;
   font-size: 34px;
   margin-top: 0;
   margin-bottom: 5px;
@@ -69,13 +69,13 @@ background-color: #AE0E11;
 
 .hero-title {
   color: white;;
-  font-family: 'bebas';
+  font-family: 'Fjalla One', sans-serif;
   text-align: center;
   background-color: #AE0E11;
   width: 280px;
   display: block;
   margin: auto;
-  font-size: 35px;
+  font-size: 34px;
 }
 
 .whoweare-home {

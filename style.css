@@ -372,6 +372,12 @@ font-size: 12px;
   display: flex;
 }
 
+.fail {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  margin-left: 10px;
+}
 
 
 

@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3ac3142e2a.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
     <navbar>
@@ -26,9 +27,9 @@
         <div class="headertext">
           <h1 class="hero-title">Hartwell Cement Co.</h1>
             <h3>BUILD YOUR NEXT PROJECT WITH US</h3>
-              <h4>For 75 years, Hartwell Cement has set the standards for quality,
+              <div class="hero-about"><h4>For 75 years, Hartwell Cement has set the standards for quality,
                   performance, and reliability in commercial, industrial, and
-                  municipal concrete construction.</h4>
+                  municipal concrete construction.</h4></div>
             <a href="about.html" class="aboutus au-button">About Us</a>
         </div>
     </section>
@@ -96,22 +97,22 @@
                 <br>
                 <br>
         <div class="form"><a name="message"></a>
-            <form method="post" action="send_mail.php">
-                <legend class="form-header bold-font">Send Us A Message</legend>
-                    <input class="thin-font" placeholder="First Name" type="text" name="first_name" required>
-                    <input class="thin-font" placeholder="Phone" type="tel" name="phone" required>
-                <br>
-                <br>
-                <legend class="form-header bold-font">Enter Your Email</legend>
-                    <input class="thin-font" placeholder="Johndoe@gmail.com" type="email" name="email_address">
-                    <input class="thin-font" placeholder="Subject" type="text" name="subject">
-                <br>
-                <br>
-                    <textarea class="thin-font" rows="4" cols="42">Message</textarea>
-                <br>
-                <br>
-                <button class="submit-form">Send Message</button>
-            </form>
+            <div class="inner-form">
+            <legend class="form-header bold-font">Send Us A Message</legend>
+                <input id="first_name" class="thin-font" placeholder="First Name" type="text" name="first_name">
+                <input id="phone_number" class="thin-font" placeholder="Phone" type="tel" name="phone">
+            <br>
+            <br>
+            <legend class="form-header bold-font">Enter Your Email</legend>
+                <input id="email" class="thin-font" placeholder="Johndoe@gmail.com" type="email" name="email_address">
+                <input id="subject" class="thin-font" placeholder="Subject" type="text" name="subject">
+            <br>
+            <br>
+                <textarea id="message" class="thin-font" rows="4" cols="42">Message</textarea>
+            <br>
+            <br>
+            <button onclick="sentSuccess()" class="submit-form" id="submit-button">Send Message</button><span id="success" class="success" style="display: none">Success</span>
+            </div>
         </div>
     </section>
     <br>

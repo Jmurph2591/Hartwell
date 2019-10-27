@@ -363,7 +363,14 @@ font-size: 12px;
   margin-left: 10px;
 }
 
+.hero-about {
+  width: 600px;
+  margin: auto;
+}
 
+.clientpics {
+  display: flex;
+}
 
 
 

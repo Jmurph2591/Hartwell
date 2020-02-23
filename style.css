@@ -13,7 +13,6 @@ html {
   grid-template-rows: auto auto;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 10%;
   padding: 20px;
   background-color: #F5F6F8;
   border: 1px solid #E5E5E6;
@@ -21,6 +20,10 @@ html {
 
 .card {
   text-align: center;
+}
+
+.card-group {
+  margin-top: 90px;
 }
 
 body {
@@ -46,13 +49,6 @@ a:visited {
   display: flex;
 
 }
-/*
-.fas, .fab {
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-top: 4px;
-}
-*/
 
 .fas, .fab {
   font-size: 30px;
@@ -79,15 +75,15 @@ a:visited {
 
 .cta {
   font-size: 13px;
-  color: black;
+  color: #AE0E11;
 }
 
 .cta a {
-  color: black;
+  color: #AE0E11;
 }
 
 .cta-parent {
-  margin-left: auto;
+  margin-left: 440px;
 }
 
 
@@ -143,13 +139,14 @@ h1 {
 .dwn-arrow {
   border: 1px solid #AE0E11;
   width: 50px;
-  border-radius: 30px;
+  border-radius: 50px;
   margin: auto;
   text-align: center;
 }
 
 .fa-chevron-down {
   color: white;
+  padding-left: 5px;
 }
 
 .bounce {
@@ -212,7 +209,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-weight: 500;
+  font-weight: 800;
   color: black;
 }
 
@@ -285,6 +282,7 @@ h4 {
 .fa-check-square {
   font-size: 30px;
   padding-right: 10px;
+  color: #AE0E11;
 }
 
 .reviews {

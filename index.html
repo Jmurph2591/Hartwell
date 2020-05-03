@@ -6,10 +6,11 @@
     <title>Hartwell Cement Co</title>
     <meta name="" content="">
     <meta name="" content="">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Hind+Siliguri:300|Libre+Franklin&display=swap"
+    <meta name="viewport" content="width=device-width">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Podkova:wght@800&family=Rubik:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="Images/Misc/favicon (1).ico">
     <script src="https://kit.fontawesome.com/3ac3142e2a.js"></script>
 </head>
@@ -17,45 +18,68 @@
 <body>
 
     <div class='fixed-toolbar'>
-    <div class='toolbar'>
-        <div class='top-left-icons'>
-            <i class="fas fa-envelope"></i>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fas fa-phone-square-alt"></i>
-        </div>
-        <div class="call-us-now font">
-            <div class='cta-parent'>
-                <span class='cta'>Call Us Now: <a href="tel:+2485551212">248-555-1212</a></span>
-                <span class='cta cta-hide'>| Get In Touch: sales@hartwellcement.com</span>
+        <div class='toolbar'>
+            <div class='top-left-icons'>
+                <!--<i class="fas fa-envelope"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fas fa-phone-square-alt"></i>-->
             </div>
-            <button class='getquote font'>Get A Quote</button>
+            <div class="call-us-now font">
+                <div class='cta-parent'>
+                    <span class='cta'>Call Us Now: <a href="tel:+2485551212">248-555-1212</a></span>
+                    <span class='cta cta-hide'>| Get In Touch: sales@hartwellcement.com</span>
+                </div>
+                <button class='getquote font'>Get A Quote</button>
+            </div>
         </div>
+
+        <navbar>
+            <div class="nav-box font">
+                <div> <a class="nav-links" href="#about">About</a></div>
+                <div> <a class="nav-links" href="#services">Services</a></div>
+                <div> <a class="nav-links" href="#careers">Careers</a></div>
+                <div> <a class="nav-links" href="#contact">Contact</a></div>
+            </div>
+        </navbar>
     </div>
 
-    <navbar>
-        <div class="nav-box font">
-            <div> <a class="nav-links" href="#about">About</a></div>
-            <div> <a class="nav-links" href="#ourwork">Our Work</a></div>
-            <div> <a class="nav-links" href="#reviews">Reviews</a></div>
-            <div> <a class="nav-links" href="#services">Our Services</a></div>
-            <div> <a class="nav-links" href="#contact">Contact</a></div>
+    <section class='wrap'>
+        <div id='arrow-left' class='arrow'>
+            <i class="fas fa-arrow-left"></i>
         </div>
-    </navbar>
-    </div>
 
-    <section class="hero">
-        <div class='hero-text'>
-            <h1>Hartwell Cement Co.</h1>
-            <h3 class='font title'>BUILD YOUR NEXT PROJECT WITH US</h3>
-            <div class="dwn-arrow bounce"><i class="fas fa-chevron-down"></i></div>
-            <div class="arrow bounce">
+        <div id='slider' class='slider'>
+            <div class='slide slide-1'>
+                <div class='slide-content'>
+                    <h1>Hartwell Cement Co.</h1>
+                    <h3 class='font title'>BUILD YOUR NEXT PROJECT WITH US</h3>
+                </div>
             </div>
+
+            <div class='slide slide-2'>
+                <div class='slide-content'>
+                    <h1>Hartwell Cement Co.</h1>
+                    <h3 class='font title'>BUILD YOUR NEXT PROJECT WITH US</h3>
+                </div>
+            </div>
+
+            <div class='slide slide-3'>
+                <div class='slide-content'>
+                    <h1>Hartwell Cement Co.</h1>
+                    <h3 class='font title'>BUILD YOUR NEXT PROJECT WITH US</h3>
+
+                </div>
+            </div>
+        </div>
+        <div id='arrow-right' class='arrow'>
+            <i class="fas fa-arrow-right"></i>
         </div>
     </section>
-
+    <div id="about"></div>
+    <br>
     <section class="about-us font">
-        <div id="about"></div>
-        <h2>We Are Hartwell Cement</h2>
+        
+        <h2>WE ARE HARTWELL CEMENT</h2>
         <div class="about-box">
             <p class='about-text'>For
                 75 years, Hartwell Cement has set the standards for quality,
@@ -67,158 +91,152 @@
             <img class="group" src="Images/Misc/group_1_edit.png" alt="Group Photo">
         </div>
     </section>
+    <div id="services"></div>
+    <br>
+    <section class='services font'>
+        <h2>OUR SERVICES</h2>
+        <div class='service-group'>
+            <div class='service-container'>
+                <img class='service-image' src='Images/Logo/service_1.jpg'>
+                <div class='service-header'>Municipal</div>
+                <p class='service-text'>
+                    Hartwell Cement places and repairs concrete: flat work, curbing, catch
+                    basins, sewers, driveways, approaches,handicap ramps,
+                    dock levelers, truck wells/docks, scale/machine foundations
+                    and/or pits ect.</p>
+                <button class='inquire-btn'>Inquire</button>
+            </div>
 
-    <section class='clients font'>
-        <h2 class='client-head'>Clients Who Trust Us</h2>
-        <div class='client-box'>
-            <img class='client-logos' src='Images/Client Logos/farmington1.png'>
-            <img class='client-logos' src='Images/Client Logos/shinola1.png'>
-            <img class='client-logos' src='Images/Client Logos/ups1.png'>
-            <img class='client-logos' src='Images/Client Logos/warren1.png'>
+            <div class='service-container'>
+                <img class='service-image' src='Images/Logo/service_1.jpg'>
+                <div class='service-header'>Industrial</div>
+                <p class='service-text'>
+                    Hartwell Cement places and repairs concrete: flat work, curbing, catch
+                    basins, sewers, driveways, approaches,handicap ramps,
+                    dock levelers, truck wells/docks, scale/machine foundations
+                    and/or pits ect.</p>
+                <button class='inquire-btn'>Inquire</button>
+            </div>
+
+            <div class='service-container'>
+                <img class='service-image' src='Images/Logo/service_1.jpg'>
+                <div class='service-header'>Institutional</div>
+                <p class='service-text'>
+                    Hartwell Cement places and repairs concrete: flat work, curbing, catch
+                    basins, sewers, driveways, approaches,handicap ramps,
+                    dock levelers, truck wells/docks, scale/machine foundations
+                    and/or pits ect.</p>
+                <button class='inquire-btn'>Inquire</button>
+            </div>
+            <div class='service-container'>
+                <img class='service-image' src='Images/Logo/service_1.jpg'>
+                <div class='service-header'>Commercial</div>
+                <p class='service-text'>
+                    Hartwell Cement places and repairs concrete: flat work, curbing, catch
+                    basins, sewers, driveways, approaches,handicap ramps,
+                    dock levelers, truck wells/docks, scale/machine foundations
+                    and/or pits ect.</p>
+                <button class='inquire-btn'>Inquire</button>
+            </div>
         </div>
     </section>
-    <section class="card-group font">
-        <div id="ourwork"></div>
-        <h2>Our Work</h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="Images/Logo/img1hw.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">City of Farmington</p>
-                </div>
+    
+    <div id='careers'></div>
+    <br>
+    <section class='job-posts-box'>
+        <h2>JOB OPENINGS</h2>
+        <div class='jobs-container'>
+            <div class='job-post'>
+                <div class='job-title'>Featured Job</div>
+                <p>Driver</p>
+                <p>We are looking for the best of the best
+                    to drive late model trucks with newer
+                    trailers and sleepers. Bring your own
+                    partner or take advantage of our Team
+                    Match Program.</p>
+                <button class='apply-now'> Apply Now</button>
             </div>
-            <div class="card">
-                <img src="Images/Logo/img1hw.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">City of Farmington</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="Images/Logo/img1hw.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">City of Farmington</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="Images/Logo/img1hw.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">City of Farmington</p>
-                </div>
-            </div>
-        </div>
 
-    </section>
-    <div class='credentials font'>
-        <h2>CREDENTIALS</h2>
-        <div class='cred'>
-            <div class='cred-text cred-box'><i class="fas fa-check-square"></i>Family owned and operated since 1942.
+            <div class='job-post'>
+                <div class='job-title'>Featured Job</div>
+                <p>Driver</p>
+                <p>We are looking for the best of the best
+                    to drive late model trucks with newer
+                    trailers and sleepers. Bring your own
+                    partner or take advantage of our Team
+                    Match Program.</p>
+                <button class='apply-now'> Apply Now</button>
             </div>
-            <div class='cred-text'><i class="fas fa-check-square"></i>Member of the Construction Association of
-                Michigan.</div>
-            <div class='cred-text'><i class="fas fa-check-square"></i>Member of the the Associated Concrete Contractors
-                of Michigan.</div>
-            <div class='cred-text'><i class="fas fa-check-square"></i>Pre-qualified with the Michigan Department of
-                Transportation.</div>
-            <div class='cred-text'><i class="fas fa-check-square"></i>Deals exclusively with commercial, industrial,
-                institutional, and municipal concerns.</div>
+
+            <div class='job-post'>
+                <div class='job-title'>Featured Job</div>
+                <p>Driver</p>
+                <p>We are looking for the best of the best
+                    to drive late model trucks with newer
+                    trailers and sleepers. Bring your own
+                    partner or take advantage of our Team
+                    Match Program.</p>
+                <button class='apply-now'> Apply Now</button>
+            </div>
+    </section>
+
+    <div id="contact"></div>
+    <br>
+    <section class="reach-us font">
+        <h2 class='reach-us-header'>HOW TO REACH US</h2>
+        <div class='reach-us-box'>
+            <!--<div>Hello box</div>-->
+            <div class="">
+                <div class="gmap_canvas">
+                    <iframe width="250" height="250" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=21650%20Fern%20St%2C%20Oak%20Park%2C%20MI%2048237&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                <style>
+                    .mapouter {
+
+                        text-align: right;
+                        height: 100px;
+                        width: 100px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 350px;
+                        width: 350px;
+                    }
+                </style>
+            </div>
+            <div class="reach-us-textbox">
+                <ul class="reach-us-text">
+                    <li class='header-text'>LOCATION</li>
+                    <li>21650 Fern St.</li>
+                    <li>Oak Park, MI 48237</li>
+                    <hr>
+                    <li class='header-text'>CALL US</li>
+                    <li>(248) 548-5858</li>
+                    <hr>
+                    <li class='header-text'>EMAIL US</li>
+                    <li>sales@hartwellcement.com</li>
+                </ul>
+            </div>
         </div>
+        <!--<img class="map" src="Images/Misc/map.png">-->
+    </section>
+    <div class='quote-box'>
+        <h2>Need a Quote or Have Questions?</h2>
+        <a class='send-email-btn font'
+            href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Send
+            Us An Email</a>
     </div>
 
-    <section class='reviews font'>
-        <div id="reviews"></div>
-        <h2 class='personals'>See What People Are Saying About Us</h2>
+    <footer>
+        <p class="copyright">&copy;2020 Hartwell Cement </p>
+    </footer>
+    <button onclick="topFunction()" id='scrollToTop' class='scrollToTop'>Top</button>
 
-        <div class='comments-container'>
-            <div class='comment-card'>
-                <div class='comment-box'>“They did a great job and i was very happy with the work that was done. Would
-                    call again.”</div>
-                <p class='comment-name'>Name</p>
-                <p>Location</p>
-            </div>
-            <div class='comment-card'>
-                <div class='comment-box'>“They did a great job and i was very happy with the work that was done. Would
-                    call again.”</div>
-                <p class='comment-name'>Name</p>
-                <p>Location</p>
-            </div>
-            <div class='comment-card'>
-                <div class='comment-box'>“They did a great job and i was very happy with the work that was done. Would
-                    call again.”</div>
-                <p class='comment-name'>Name</p>
-                <p>Location</p>
-            </div>
-        </div>
-    </section>
-    <section class='services font'>
-        <div id="services"></div>
-        <h2>Our Services</h2>
-        <div class='service-group'>
-            <div class='service-box'>Municipal</div>
-            <div class='service-box'>Industrial</div>
-            <div class='service-box'>Institutional</div>
-            <div class='service-box'>Commercial</div>
-        </div>
-    </section>
-    <section class="choose-us font">
-        <h2 class='choose-title'>Why Choose Us</h2>
-        <div class='choose-text'>
-            <div class='choose-box'>
-                <i class="fas fa-star"></i>
-                <p class='choose-container'>Hartwell Cement places and repairs concrete: flat work, curbing, catch
-                    basins, sewers, driveways,
-                    approaches,
-                    handicap ramps, dock levelers, truck wells/docks, scale/machine foundations and/or pits ect.</p>
-            </div>
-            <div class='choose-box'>
-                <i class="fas fa-star"></i>
-                <p class='choose-container'>Hartwell Cement places and repairs concrete: flat work, curbing, catch
-                    basins, sewers, driveways,
-                    approaches,
-                    handicap ramps, dock levelers, truck wells/docks, scale/machine foundations and/or pits ect.</p>
-            </div>
-            <div class='choose-box'>
-                <i class="fas fa-star"></i>
-                <p class='choose-container'>Hartwell Cement places and repairs concrete: flat work, curbing, catch
-                    basins,
-                    sewers, driveways,
-                    approaches,
-                    handicap ramps, dock levelers, truck wells/docks, scale/machine foundations and/or pits ect.</p>
-            </div>
-        </div>
-    </section>
 
-    <section class="reach-us font">
-        <h2>How To Reach Us</h2>
-        <div class="reach-us-blips">
-            <ul class="location">
-                <li>Our Location</li>
-                <li>21650 Fern St.</li>
-                <li>Oak Park, MI 48237</li>
-            </ul>
-            <ul class="call-us">
-                <li>Call Us</li>
-                <li>(248) 548-5858</li>
-            </ul>
-            <ul class="email-us">
-                <li>Email Us</li>
-                <li>sales@hartwellcement.com</li>
-            </ul>
-        </div>
-        <img class="map" src="Images/Misc/map.png">
-        <div class='send-us-email font'>
-
-            <h4>Need a Quote or Have Questions?</h4>
-            <button class='send-email-btn'>Send Us An Email</button>
-            <div id="contact"></div>
-        </div>
-
-        <footer>
-            <p class="copyright">&copy;2020 Hartwell Cement </p>
-        </footer>
+    <script src='app.js'></script>
 </body>
 
 </html>
